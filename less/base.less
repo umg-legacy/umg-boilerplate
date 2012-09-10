@@ -1,0 +1,92 @@
+// Base styles
+// -------------------------
+
+// Apply a natural box layout model to all elements
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,
+button,
+input,
+select,
+textarea {
+    color: @textColor;
+}
+
+body {
+    color: @textColor;
+    background-color: @bodyBackground;
+    font-family: @baseFontFamily;
+    font-size: @baseFontSize;
+    line-height: @baseLineHeight;
+}
+
+// Links
+a {
+    color: @linkColor;
+
+    &:hover {
+        color: @linkColorHover;
+    }
+
+    &:visited {
+        color: @linkColorVisited;
+    }
+}
+
+// Paragraphs
+p {
+    margin: 0 0 1em;
+}
+
+// Selection highlight
+::-moz-selection {
+    background: @selectionHightlightColor;
+    text-shadow: none;
+}
+
+::selection {
+    background: @selectionHightlightColor;
+    text-shadow: none;
+}
+
+// Remove the gap between images and the bottom of their containers
+img {
+    vertical-align: middle;
+}
+
+// Remove default fieldset styles
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+// Allow only vertical resizing of textareas
+textarea {
+    resize: vertical;
+}
+
+// Remove margin and padding from nav ul/ols
+nav {
+
+    ul,
+    ol {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+// Chrome Frame prompt
+.chromeframe {
+    color: @textColor;
+    background: #ccc;
+    margin: 0.2em 0;
+    padding: 0.2em 0;
+}
+
+// Global wrapper
+.wrap {}
