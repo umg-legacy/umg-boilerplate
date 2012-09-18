@@ -315,9 +315,10 @@ nav ol {
 }
 .chromeframe {
   color: #222222;
-  background: #ccc;
-  margin: 0.2em 0;
-  padding: 0.2em 0;
+  background-color: #f2efc4;
+  text-align: center;
+  margin: 0;
+  padding: 10px;
 }
 @media only screen and (min-width: 30em) {
   
