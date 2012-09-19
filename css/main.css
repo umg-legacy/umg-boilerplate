@@ -313,6 +313,9 @@ nav ol {
   margin: 0;
   padding: 0;
 }
+blockquote {
+  font-style: italic;
+}
 .chromeframe {
   color: #222222;
   background-color: #f2efc4;
